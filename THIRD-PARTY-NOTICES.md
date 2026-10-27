@@ -18,7 +18,7 @@ The workbook adapts the framework into an assessment coverage view, with control
 
 CC BY-SA 4.0 requires appropriate attribution, a license link and an indication of changes, and includes ShareAlike terms for adaptations. The linked legal terms govern. This notice preserves the identified source attribution and does not replace the source license with a proposed project license.
 
-The precise allocation of framework-derived material, original workbook material and other repository components still needs review before the overall release license is finalized. This repository does not assert that the legal scope of ShareAlike across the whole workbook has been settled. See [LICENSE-STATUS.md](LICENSE-STATUS.md).
+On 27 October 2026, the author selected CC BY-SA 4.0 for all original material in Agent Assurance Atlas. The LLM workbook and its framework adaptations are distributed under the same license, preserving the attribution above. The root [LICENSE](LICENSE) and [LICENSE-STATUS.md](LICENSE-STATUS.md) record this allocation. `LICENSES/MIT.proposed.txt` remains only a historical proposal.
 
 ## Referenced standards and frameworks
 
