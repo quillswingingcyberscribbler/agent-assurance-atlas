@@ -77,8 +77,10 @@ Examples such as ticket creation and sandbox detonation require local review of 
 
 See [draft issues](issues-to-open.md) for concrete proposed work and [review](review.md) for test evidence.
 
-## PUB-01 — Office sensitivity-label metadata
+## PUB-01 — Office sensitivity-label metadata — resolved
 
-A follow-up inspection on 26 October 2026 found a Microsoft Information Protection label record in every supplied Office source in this repository. The record contains label/site metadata; its presence alone does not establish confidentiality or unsuitability for publication. The source artifacts remain unchanged.
+The publication-metadata review was completed on 27 October 2026. The visible Public classifications were deliberately retained. Document properties, `lastModifiedBy` and absolute local or SharePoint paths were removed.
 
-Before public distribution, review the Sensitivity setting and applicable policy in the intended Office applications. Decide deliberately whether release copies retain or remove the label and record the decision in the [publication-metadata record](../validation/publication-metadata.json). If an artifact changes, update its source hash and rerun the package and project-specific checks. Stable readiness also requires the completed [native Excel acceptance record](../validation/native-excel-acceptance.md).
+The LLM public copy was cleaned directly at OOXML level to preserve all 6,171 formulas, saved cell values and all nine sheet-protection configurations. The SOC public copy was cleaned and reopened in Microsoft Excel; all 2,887 formulas and saved cell values match the original source. Reference and scenario outputs reproduce the recorded baselines exactly, including the documented defects. No formula errors were found.
+
+Current public-copy hashes are recorded in [validation/manifest.json](../validation/manifest.json), and the review decision is documented in [validation/publication-metadata.json](../validation/publication-metadata.json). Full native Excel acceptance remains a separate release requirement.
