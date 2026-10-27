@@ -66,7 +66,9 @@ Both scripts accept `--workbook-dir /path/to/workbooks`. The scenario harness us
 
 ## Licensing and attribution
 
-No overall license has been assigned to this prerelease. See [LICENSE-STATUS.md](LICENSE-STATUS.md) before publication or reuse. The LLM workbook includes an attribution for the AI Defense Matrix framework and its stated CC BY-SA 4.0 license; that notice does not establish a license for the complete workbook. The [third-party notice](THIRD-PARTY-NOTICES.md) preserves the attribution, source and license links. The original filenames and workbook notices are retained.
+All original material in Agent Assurance Atlas is licensed under **CC BY-SA 4.0**. See the root [LICENSE](LICENSE) and [LICENSE-STATUS.md](LICENSE-STATUS.md) for the project allocation and the complete legal text.
+
+The LLM workbook includes adapted AI Defense Matrix material by Lenny Zeltser and Sounil Yu, also licensed under CC BY-SA 4.0. The [third-party notice](THIRD-PARTY-NOTICES.md) preserves the required attribution, source, and license information. Cited standards, research, and other third-party content retain their respective rights.
 
 ## Prepare publication
 
