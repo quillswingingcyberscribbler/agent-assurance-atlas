@@ -1,6 +1,6 @@
 # Publish Agent Assurance Atlas through the GitHub web interface
 
-This is a browser-only publication guide for the reviewed prerelease package `0.1.0-review.1`. No command line, Git installation, or GitHub CLI is required. Repository-only preparation was completed on 2026-10-26; the supplied source artifacts and functional-review baseline remain unchanged.
+This is a browser-only publication guide for the reviewed prerelease package `0.1.0-review.1`. Repository-only preparation was completed on 2026-10-26. The public workbooks were metadata-cleaned on 2026-10-27; their worksheets, formulas, saved cell values and LLM sheet-protection configurations remain unchanged.
 
 Read [known issues](docs/known-issues.md), [LICENSE-STATUS.md](LICENSE-STATUS.md), and the [publication-metadata record](validation/publication-metadata.json) before changing repository visibility.
 
@@ -38,9 +38,7 @@ GitHub supports up to 100 files in one browser upload. Its browser uploader does
 
 ## 5. Complete the publication decisions
 
-Resolve the overall license allocation, including the AI Defense Matrix CC BY-SA 4.0 obligations, and complete the publication-metadata review. The documented SOC, comparator, MCP, and print issues may remain visible in a reviewed prerelease.
-
-Every supplied Office source contains a Microsoft Information Protection label record. Its presence alone does not establish confidentiality. Review the Sensitivity setting and applicable policy in the intended Office applications. If you create cleaned public copies, preserve the originals separately, update the source hashes, and rerun the repository checks. Record the decision in [validation/publication-metadata.json](validation/publication-metadata.json) and change `publication_metadata_reviewed` in [validation/release-status.json](validation/release-status.json) only after that review.
+The author has selected CC BY-SA 4.0 for all original material in Agent Assurance Atlas. The root [LICENSE](LICENSE), [LICENSE-STATUS.md](LICENSE-STATUS.md) and [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md) record the allocation and preserve the AI Defense Matrix attribution and ShareAlike terms. The publication-metadata review is complete. Public sensitivity labels are retained; document properties and absolute local or SharePoint paths have been removed. Current hashes and verification results are recorded in [validation/manifest.json](validation/manifest.json) and [validation/publication-metadata.json](validation/publication-metadata.json). The documented SOC, comparator, MCP and print issues may remain visible in a reviewed prerelease.
 
 ## 6. Change visibility when ready
 
@@ -64,7 +62,7 @@ GitHub also creates source ZIP and tar.gz archives automatically. The attached f
 
 ## 8. Before any stable release
 
-Resolve the applicable functional blockers, complete [native Excel acceptance](validation/native-excel-acceptance.md), confirm licensing, and finish the publication-metadata review. Update `validation/release-status.json`, its evidence paths, the source manifest, citation/version metadata, and change log to describe the same artifact set.
+Resolve the applicable functional blockers and complete [native Excel acceptance](validation/native-excel-acceptance.md). Keep the confirmed CC BY-SA allocation and the completed [publication-metadata record](validation/publication-metadata.json) consistent with the released artifacts. Update `validation/release-status.json`, its evidence paths, the source manifest, citation/version metadata, and change log to describe the same artifact set.
 
 You can run the explicit release declaration check without leaving the browser. Open **Actions**, then **Repository checks**, then **Run workflow**, and enable `require_stable_release`. It intentionally fails while blockers or required acceptance evidence remain. A manually requested green gate confirms the recorded declarations and evidence-file presence; the underlying evidence still needs human review.
 
