@@ -6,7 +6,8 @@
 
 Use the security assessment to decide whether an AI integration has the controls and evidence needed for a pilot or production review. Use the autonomy map to decide which SOC actions can be released at which level of automation under your policy, evidence and readiness constraints.
 
-**Release: `0.1.0-review.1` — reviewed prerelease.** The original workbooks are preserved unchanged. The review found a SOC confidence-configuration defect, eight stale LLM comparator caches, and two reporting limitations. The default SOC confidence order and the tested central approval and release gates behaved as documented. Read [known issues](docs/known-issues.md) before using or customizing the files.
+**Release: `0.1.0-review.1` — reviewed prerelease.** The public workbooks were metadata-cleaned on 27 October 2026; the Public sensitivity labels are retained. LLM formulas, saved cell values and all nine sheet-protection configurations match the original source. SOC formulas and saved cell values are likewise unchanged. The review found a SOC confidence-configuration defect, eight stale LLM comparator caches, and two reporting limitations. These known issues remain. Read [known issues](docs/known-issues.md) before using or customizing the files.
+
 
 ## Choose a workbook
 
@@ -72,4 +73,4 @@ The LLM workbook includes adapted AI Defense Matrix material by Lenny Zeltser an
 
 ## Prepare publication
 
-The [browser-only publishing guide](PUBLISHING.md) covers repository creation, file upload, Actions, visibility, and prerelease creation through GitHub's web interface. Complete the [publication-metadata review](validation/publication-metadata.json) and, for a stable release, the [native Excel acceptance record](validation/native-excel-acceptance.md). These records do not replace the functional issues described above.
+The [browser-only publishing guide](PUBLISHING.md) covers repository creation, file upload, Actions, visibility, and prerelease creation through GitHub's web interface. The [publication-metadata review](validation/publication-metadata.json) is complete. For a stable release, complete the [native Excel acceptance record](validation/native-excel-acceptance.md) and address the functional issues described above.
