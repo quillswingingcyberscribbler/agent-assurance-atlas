@@ -4,7 +4,7 @@
   "source_versions": "LLM assessment v0.6.8 r4; SOC Autonomy Map v1.4.3",
   "stable_release_ready": false,
   "native_excel_verified": false,
-  "licensing_confirmed": false,
+  "licensing_confirmed": true,
   "workbook_changes_applied": false,
   "blockers": [
     "SOC confidence adjustments allow an inverted confidence ordering.",
