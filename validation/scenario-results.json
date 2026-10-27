@@ -1,0 +1,660 @@
+[
+  {
+    "name": "LLM blank template",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 68,
+      "Dashboard!B10": 0.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B7": 68
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM fully answered with evidence",
+    "results": {
+      "Dashboard!B3": "APPROVABLE",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "APPROVABLE",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "APPROVABLE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM production Blocker Partial",
+    "results": {
+      "Dashboard!B3": "BLOCKED",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 0.9836601307189542,
+      "Dashboard!B11": 1,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "BLOCKED",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "BLOCKED"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM pilot Blocker Partial",
+    "results": {
+      "Dashboard!B3": "CONDITIONAL APPROVAL",
+      "Dashboard!B7": 26,
+      "Dashboard!B10": 0.9776785714285714,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 1,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "CONDITIONAL APPROVAL",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "CONDITIONAL APPROVAL"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM blocker No remains blocked when status Remediated",
+    "results": {
+      "Dashboard!B3": "BLOCKED",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 0.9673202614379085,
+      "Dashboard!B11": 1,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "BLOCKED",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "BLOCKED"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM documented exemption stays conditional",
+    "results": {
+      "Dashboard!B3": "CONDITIONAL APPROVAL",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 0.9673202614379085,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 1.0,
+      "Dashboard!B21": "CONDITIONAL APPROVAL",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "CONDITIONAL APPROVAL",
+      "Dashboard!B13": 1
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM missing exemption metadata holds decision",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE - confirmed blocking issue present",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 0.9673202614379085,
+      "Dashboard!B11": 1,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 1.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM blocker de-scope needs review",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 35,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 1.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM missing evidence is conditional",
+    "results": {
+      "Dashboard!B3": "CONDITIONAL APPROVAL",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "CONDITIONAL APPROVAL",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "CONDITIONAL APPROVAL"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM unanswered control is incomplete",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM invalid response is incomplete",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 1.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM invalid likelihood is incomplete",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 1.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM invalid scoping is incomplete",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 49,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM missing policy setting is incomplete",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 1.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM inverted readiness thresholds are incomplete",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 1.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM capability keeps tools local memory and MCP controls applicable",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 43,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 0.0,
+      "Assessment Matrix!I60": "Yes",
+      "Assessment Matrix!I61": "Yes",
+      "Assessment Matrix!I63": "Yes",
+      "Assessment Matrix!I67": "Yes"
+    },
+    "expected": {
+      "Assessment Matrix!I60": "Yes",
+      "Assessment Matrix!I61": "Yes",
+      "Assessment Matrix!I63": "Yes",
+      "Assessment Matrix!I67": "Yes"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM required MCP server complete",
+    "results": {
+      "Dashboard!B3": "APPROVABLE",
+      "Dashboard!B7": 37,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "APPROVABLE",
+      "Dashboard!B26": 0.0,
+      "MCP Server Checklist!D25": "GO"
+    },
+    "expected": {
+      "Dashboard!B21": "APPROVABLE",
+      "MCP Server Checklist!D25": "GO"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM invalid calendar protocol date",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 37,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM MCP mandatory failure blocks",
+    "results": {
+      "Dashboard!B3": "BLOCKED",
+      "Dashboard!B7": 37,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "BLOCKED",
+      "Dashboard!B26": 0.0,
+      "MCP Server Checklist!D23": 1.0,
+      "MCP Server Checklist!D25": "NO-GO - mandatory checkpoint open"
+    },
+    "expected": {
+      "Dashboard!B21": "BLOCKED"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM MCP failure plus missing context",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 37,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 0.0,
+      "MCP Server Checklist!D23": 1.0,
+      "MCP Server Checklist!D25": "INCOMPLETE - assessment context missing or invalid"
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "LLM S19 no with required checklist holds decision",
+    "results": {
+      "Dashboard!B3": "INCOMPLETE",
+      "Dashboard!B7": 36,
+      "Dashboard!B10": 1.0,
+      "Dashboard!B11": 0,
+      "Dashboard!B12": 0,
+      "Dashboard!B13": 0.0,
+      "Dashboard!B21": "INCOMPLETE",
+      "Dashboard!B26": 0.0
+    },
+    "expected": {
+      "Dashboard!B21": "INCOMPLETE"
+    },
+    "pass": true
+  },
+  {
+    "name": "Comparator complete candidate",
+    "results": {
+      "Model Comparator!G5": 1.0,
+      "Model Comparator!G6": 0.0,
+      "Model Comparator!G7": "Suitable",
+      "Model Comparator!G8": 0.0,
+      "Model Comparator!AB8": 2.0
+    },
+    "expected": {
+      "Model Comparator!G7": "Suitable"
+    },
+    "pass": true
+  },
+  {
+    "name": "Comparator proposed exclusion needs review",
+    "results": {
+      "Model Comparator!G5": 1.0,
+      "Model Comparator!G6": 0.0,
+      "Model Comparator!G7": "PENDING REVIEW",
+      "Model Comparator!G8": 0.0,
+      "Model Comparator!AB8": 0.0
+    },
+    "expected": {
+      "Model Comparator!G7": "PENDING REVIEW"
+    },
+    "pass": true
+  },
+  {
+    "name": "Comparator approved current exclusion set",
+    "results": {
+      "Model Comparator!G5": 1.0,
+      "Model Comparator!G6": 0.0,
+      "Model Comparator!G7": "Suitable",
+      "Model Comparator!G8": 0.0,
+      "Model Comparator!AB8": 1.0
+    },
+    "expected": {
+      "Model Comparator!G7": "Suitable"
+    },
+    "pass": true
+  },
+  {
+    "name": "Comparator changed exclusion requires new review",
+    "results": {
+      "Model Comparator!G5": 1.0,
+      "Model Comparator!G6": 0.0,
+      "Model Comparator!G7": "PENDING REVIEW",
+      "Model Comparator!G8": 0.0,
+      "Model Comparator!AB8": 0.0
+    },
+    "expected": {
+      "Model Comparator!G7": "PENDING REVIEW"
+    },
+    "pass": true
+  },
+  {
+    "name": "Comparator formula snapshot is rejected",
+    "results": {
+      "Model Comparator!G5": 1.0,
+      "Model Comparator!G6": 0.0,
+      "Model Comparator!G7": "PENDING REVIEW",
+      "Model Comparator!G8": 0.0,
+      "Model Comparator!AB8": 0.0
+    },
+    "expected": {
+      "Model Comparator!G7": "PENDING REVIEW"
+    },
+    "pass": true
+  },
+  {
+    "name": "Comparator rejected exclusion is incomplete",
+    "results": {
+      "Model Comparator!G5": 1.0,
+      "Model Comparator!G6": 0.0,
+      "Model Comparator!G7": "INCOMPLETE - re-answer rejected exclusions",
+      "Model Comparator!G8": 0.0,
+      "Model Comparator!AB8": -1.0
+    },
+    "expected": {
+      "Model Comparator!G7": "INCOMPLETE - re-answer rejected exclusions"
+    },
+    "pass": true
+  },
+  {
+    "name": "Comparator shared invalid policy is provisional",
+    "results": {
+      "Model Comparator!G5": 1.0,
+      "Model Comparator!G6": 0.0,
+      "Model Comparator!G7": "PROVISIONAL - invalid scope/config",
+      "Model Comparator!G8": 0.0,
+      "Model Comparator!AB8": 2.0
+    },
+    "expected": {
+      "Model Comparator!G7": "PROVISIONAL - invalid scope/config"
+    },
+    "pass": true
+  },
+  {
+    "name": "Comparator operational evidence does not change sourcing",
+    "results": {
+      "Model Comparator!G5": 1.0,
+      "Model Comparator!G6": 0.0,
+      "Model Comparator!G7": "Suitable",
+      "Model Comparator!G8": 0.0,
+      "Model Comparator!AB8": 2.0
+    },
+    "expected": {
+      "Model Comparator!G7": "Suitable"
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC baseline",
+    "results": {
+      "Register!J7": "L4 Autonomous",
+      "Register!L7": 4.0,
+      "Register!O7": 4.0,
+      "Register!P7": "As recommended",
+      "Register!Q7": 3,
+      "Register!S7": "Passed",
+      "Register!T7": 3.0,
+      "Register!U7": "Readiness gate (one level per gate)"
+    },
+    "expected": {
+      "Register!T7": 3
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC missing action",
+    "results": {
+      "Register!J7": "L4 Autonomous",
+      "Register!L7": 4.0,
+      "Register!O7": "",
+      "Register!P7": "Incomplete assessment",
+      "Register!Q7": "",
+      "Register!S7": "Passed",
+      "Register!T7": "",
+      "Register!U7": "Incomplete assessment"
+    },
+    "expected": {
+      "Register!O7": "",
+      "Register!T7": "",
+      "Register!P7": "Incomplete assessment"
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC missing current level",
+    "results": {
+      "Register!J7": "L4 Autonomous",
+      "Register!L7": 4.0,
+      "Register!O7": "",
+      "Register!P7": "Incomplete assessment",
+      "Register!Q7": "",
+      "Register!S7": "Passed",
+      "Register!T7": "",
+      "Register!U7": "Incomplete assessment"
+    },
+    "expected": {
+      "Register!O7": "",
+      "Register!T7": "",
+      "Register!P7": "Incomplete assessment"
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC low confidence caps release",
+    "results": {
+      "Register!J7": "L4 Autonomous",
+      "Register!L7": 2.0,
+      "Register!O7": 4.0,
+      "Register!P7": "As recommended",
+      "Register!Q7": 3,
+      "Register!S7": "Passed",
+      "Register!T7": 2.0,
+      "Register!U7": "Model confidence"
+    },
+    "expected": {
+      "Register!L7": 2,
+      "Register!T7": 2
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC invalid policy fails closed",
+    "results": {
+      "Register!J7": "Config error",
+      "Register!L7": "",
+      "Register!O7": "",
+      "Register!P7": "Config error",
+      "Register!Q7": "",
+      "Register!S7": "Passed",
+      "Register!T7": "",
+      "Register!U7": "Config error",
+      "Policy!B24": "Policy matrix: missing or non-numeric level"
+    },
+    "expected": {
+      "Register!J7": "Config error",
+      "Register!T7": ""
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC high blast guardrail caps approved exception",
+    "results": {
+      "Register!O8": 4.0,
+      "Register!T8": 3.0,
+      "Register!U8": "Human-signature guardrail"
+    },
+    "expected": {
+      "Register!O8": 4,
+      "Register!T8": 3
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC unknown read-only confidence bypasses confidence cap",
+    "results": {
+      "Register!L6": 4.0,
+      "Register!T6": 4.0,
+      "Register!P6": "As recommended"
+    },
+    "expected": {
+      "Register!L6": 4,
+      "Register!T6": 4
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC nonmonotonic confidence high",
+    "results": {
+      "Register!J7": "L4 Autonomous",
+      "Register!L7": 2.0,
+      "Register!O7": 4.0,
+      "Register!P7": "As recommended",
+      "Register!Q7": 3,
+      "Register!S7": "Passed",
+      "Register!T7": 2.0,
+      "Register!U7": "Model confidence",
+      "Scales!C43": "OK"
+    },
+    "expected": {
+      "Scales!C43": "OK",
+      "Register!T7": 2
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC nonmonotonic confidence low",
+    "results": {
+      "Register!J7": "L4 Autonomous",
+      "Register!L7": 4.0,
+      "Register!O7": 4.0,
+      "Register!P7": "As recommended",
+      "Register!Q7": 3,
+      "Register!S7": "Passed",
+      "Register!T7": 3.0,
+      "Register!U7": "Readiness gate (one level per gate)",
+      "Scales!C43": "OK"
+    },
+    "expected": {
+      "Scales!C43": "OK",
+      "Register!T7": 3
+    },
+    "pass": true
+  },
+  {
+    "name": "SOC read-only relaxed gate",
+    "results": {
+      "Register!T30": 4.0,
+      "Register!T60": 4.0,
+      "Register!T66": 4.0,
+      "Register!T72": 4.0,
+      "Register!T96": 4.0
+    },
+    "expected": {
+      "Register!T30": 4,
+      "Register!T60": 4,
+      "Register!T66": 4,
+      "Register!T72": 4,
+      "Register!T96": 4
+    },
+    "pass": true
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "file": "LLM_Agent_Security_Assessment_v0_6_8_r4.xlsx",
+    "matching_cells": 6171,
+    "differences": [],
+    "unsupported_or_errors": []
+  },
+  {
+    "file": "SOC-Autonomy-Map-v1.4.3.xlsx",
+    "matching_cells": 2887,
+    "differences": [],
+    "unsupported_or_errors": []
+  }
+]

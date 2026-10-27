@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Please cite this project and identify the exact workbook version used. This package is a reviewed prerelease."
+type: software
+title: "Agent Assurance Atlas"
+authors:
+  - family-names: "Muhlert"
+    given-names: "Matthias"
+    orcid: "https://orcid.org/0009-0006-3640-7779"
+version: "0.1.0-review.1"
+abstract: "Excel tools for assessing LLM systems and planning controlled SOC autonomy."
+keywords:
+  - "agentic-ai"
+  - "ai-security"
+  - "security-assessment"
+  - "soc"
+  - "autonomy"
+  - "excel"
+  - "mcp"

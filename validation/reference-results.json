@@ -1,0 +1,3755 @@
+{
+  "method": "Independent reference calculations over XLSX cached values; no native recalculation",
+  "checks": [
+    {
+      "check": "SOC cached formula errors",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "SOC Register!J6",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L6",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O6",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q6",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T6",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J7",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L7",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O7",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q7",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T7",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J8",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L8",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O8",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q8",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T8",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J9",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L9",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O9",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q9",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T9",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J10",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L10",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O10",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q10",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T10",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J11",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L11",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O11",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q11",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T11",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J12",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L12",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O12",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q12",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T12",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J13",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L13",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O13",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q13",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T13",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J14",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L14",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O14",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q14",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T14",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J15",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L15",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O15",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q15",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T15",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J16",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L16",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O16",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q16",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T16",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J17",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L17",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O17",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q17",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T17",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J18",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L18",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O18",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q18",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T18",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J19",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L19",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O19",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q19",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T19",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J20",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L20",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O20",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q20",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T20",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J21",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L21",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O21",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q21",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T21",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J22",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L22",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O22",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q22",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T22",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J23",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L23",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O23",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q23",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T23",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J24",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L24",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O24",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q24",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T24",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J25",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L25",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O25",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q25",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T25",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J26",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L26",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O26",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q26",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T26",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J27",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L27",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O27",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q27",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T27",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J28",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L28",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O28",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q28",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T28",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J29",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L29",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O29",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q29",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T29",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J30",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L30",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O30",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q30",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T30",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J31",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L31",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O31",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q31",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T31",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J32",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L32",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O32",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q32",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T32",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J33",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L33",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O33",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q33",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T33",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!J34",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L34",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O34",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q34",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T34",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J35",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L35",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O35",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q35",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T35",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J36",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L36",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O36",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q36",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T36",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J37",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L37",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O37",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q37",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T37",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J38",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L38",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O38",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q38",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T38",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J39",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L39",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O39",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q39",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T39",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J40",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L40",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O40",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q40",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T40",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J41",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L41",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O41",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q41",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T41",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J42",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L42",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O42",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q42",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T42",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J43",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L43",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O43",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q43",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T43",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J44",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L44",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O44",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q44",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T44",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J45",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L45",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O45",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q45",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T45",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J46",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L46",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O46",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q46",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T46",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J47",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L47",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O47",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q47",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T47",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J48",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L48",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O48",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q48",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T48",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J49",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L49",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O49",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q49",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T49",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J50",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L50",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O50",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q50",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T50",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J51",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L51",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O51",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q51",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T51",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!J52",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L52",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O52",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q52",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T52",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J53",
+      "pass": true,
+      "actual": "L2 AI-recommended",
+      "expected": "L2 AI-recommended"
+    },
+    {
+      "check": "SOC Register!L53",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O53",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!Q53",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T53",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!J54",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L54",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O54",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q54",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T54",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J55",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L55",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O55",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q55",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T55",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J56",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L56",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O56",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q56",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T56",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J57",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L57",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O57",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q57",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T57",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J58",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L58",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O58",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q58",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T58",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J59",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L59",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O59",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q59",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T59",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J60",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L60",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O60",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q60",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T60",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J61",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L61",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O61",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q61",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T61",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J62",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L62",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O62",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q62",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T62",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J63",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L63",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O63",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q63",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T63",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J64",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L64",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O64",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q64",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T64",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J65",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L65",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O65",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q65",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T65",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J66",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L66",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O66",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q66",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T66",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J67",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L67",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O67",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q67",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T67",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J68",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L68",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O68",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q68",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T68",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J69",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L69",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O69",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q69",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T69",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J70",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L70",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O70",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q70",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T70",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J71",
+      "pass": true,
+      "actual": "L2 AI-recommended",
+      "expected": "L2 AI-recommended"
+    },
+    {
+      "check": "SOC Register!L71",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O71",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!Q71",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T71",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!J72",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L72",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O72",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q72",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T72",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J73",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L73",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O73",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q73",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T73",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J74",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L74",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O74",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q74",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T74",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J75",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L75",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O75",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q75",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T75",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J76",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L76",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O76",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q76",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T76",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J77",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L77",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O77",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q77",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T77",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J78",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L78",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O78",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q78",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T78",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J79",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L79",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O79",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q79",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T79",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J80",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L80",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O80",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q80",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T80",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J81",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L81",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O81",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q81",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T81",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J82",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L82",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O82",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q82",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T82",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J83",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L83",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O83",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q83",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T83",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J84",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L84",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O84",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q84",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T84",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J85",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L85",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O85",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q85",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T85",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J86",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L86",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O86",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q86",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T86",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J87",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L87",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O87",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q87",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T87",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J88",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L88",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O88",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q88",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T88",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J89",
+      "pass": true,
+      "actual": "L2 AI-recommended",
+      "expected": "L2 AI-recommended"
+    },
+    {
+      "check": "SOC Register!L89",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O89",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!Q89",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T89",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!J90",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L90",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O90",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q90",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T90",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J91",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L91",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O91",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q91",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T91",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J92",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L92",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O92",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q92",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T92",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J93",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L93",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O93",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q93",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T93",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J94",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L94",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O94",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q94",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T94",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J95",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L95",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O95",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q95",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T95",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J96",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L96",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O96",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q96",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T96",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J97",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L97",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O97",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q97",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T97",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J98",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L98",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O98",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q98",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T98",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J99",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L99",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O99",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q99",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T99",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J100",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L100",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O100",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q100",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T100",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J101",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L101",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O101",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q101",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T101",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J102",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L102",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O102",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q102",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T102",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J103",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L103",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O103",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q103",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T103",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J104",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L104",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O104",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q104",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T104",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J105",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L105",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O105",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q105",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T105",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!J106",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L106",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O106",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q106",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T106",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J107",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L107",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O107",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q107",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T107",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J108",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L108",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O108",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q108",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T108",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!J109",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L109",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O109",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q109",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T109",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J110",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L110",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O110",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q110",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T110",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!J111",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L111",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O111",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q111",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T111",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J112",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L112",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O112",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q112",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T112",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J113",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L113",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O113",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q113",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T113",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J114",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L114",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O114",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q114",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T114",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J115",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L115",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O115",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q115",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T115",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J116",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L116",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O116",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q116",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T116",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!J117",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L117",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O117",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q117",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T117",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!J118",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L118",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!O118",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q118",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!T118",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J119",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L119",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!O119",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q119",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T119",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J120",
+      "pass": true,
+      "actual": "L4 Autonomous",
+      "expected": "L4 Autonomous"
+    },
+    {
+      "check": "SOC Register!L120",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4
+    },
+    {
+      "check": "SOC Register!O120",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!Q120",
+      "pass": true,
+      "actual": 4.0,
+      "expected": 4.0
+    },
+    {
+      "check": "SOC Register!T120",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!J121",
+      "pass": true,
+      "actual": "L3 Human-approved",
+      "expected": "L3 Human-approved"
+    },
+    {
+      "check": "SOC Register!L121",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O121",
+      "pass": true,
+      "actual": 3.0,
+      "expected": 3.0
+    },
+    {
+      "check": "SOC Register!Q121",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T121",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!J122",
+      "pass": true,
+      "actual": "L2 AI-recommended",
+      "expected": "L2 AI-recommended"
+    },
+    {
+      "check": "SOC Register!L122",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O122",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!Q122",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T122",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "SOC Register!J123",
+      "pass": true,
+      "actual": "L2 AI-recommended",
+      "expected": "L2 AI-recommended"
+    },
+    {
+      "check": "SOC Register!L123",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O123",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!Q123",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T123",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "SOC Register!J124",
+      "pass": true,
+      "actual": "L2 AI-recommended",
+      "expected": "L2 AI-recommended"
+    },
+    {
+      "check": "SOC Register!L124",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O124",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!Q124",
+      "pass": true,
+      "actual": 2.0,
+      "expected": 2.0
+    },
+    {
+      "check": "SOC Register!T124",
+      "pass": true,
+      "actual": 0.0,
+      "expected": 0.0
+    },
+    {
+      "check": "SOC Register!J125",
+      "pass": true,
+      "actual": "L1 Assisted",
+      "expected": "L1 Assisted"
+    },
+    {
+      "check": "SOC Register!L125",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1
+    },
+    {
+      "check": "SOC Register!O125",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!Q125",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC Register!T125",
+      "pass": true,
+      "actual": 1.0,
+      "expected": 1.0
+    },
+    {
+      "check": "SOC released autonomous share",
+      "pass": true,
+      "actual": 0.11666666666666667,
+      "expected": 0.11666666666666667
+    },
+    {
+      "check": "SOC released human-approved share",
+      "pass": true,
+      "actual": 0.09166666666666666,
+      "expected": 0.09166666666666666
+    },
+    {
+      "check": "SOC released human-decides share",
+      "pass": true,
+      "actual": 0.7916666666666666,
+      "expected": 0.7916666666666666
+    },
+    {
+      "check": "SOC boundary: high blast approved exception remains L3",
+      "pass": true,
+      "actual": 3,
+      "expected": 3
+    },
+    {
+      "check": "SOC boundary: low confidence limits L4 policy to L2",
+      "pass": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "SOC boundary: gate failure holds current",
+      "pass": true,
+      "actual": 2,
+      "expected": 2
+    },
+    {
+      "check": "SOC boundary: passed read-only releases fully",
+      "pass": true,
+      "actual": 4,
+      "expected": 4
+    },
+    {
+      "check": "LLM cached formula errors",
+      "pass": true,
+      "actual": [],
+      "expected": []
+    },
+    {
+      "check": "LLM control count",
+      "pass": true,
+      "actual": 68.0,
+      "expected": 68
+    },
+    {
+      "check": "LLM blank template recommendation",
+      "pass": true,
+      "actual": "INCOMPLETE",
+      "expected": "INCOMPLETE"
+    },
+    {
+      "check": "LLM blank template open exposure",
+      "pass": true,
+      "actual": 4608.0,
+      "expected": 4608.0
+    }
+  ],
+  "known_issues": [
+    {
+      "id": "SOC-01",
+      "issue": "Config validation does not enforce High >= Medium >= Low adjustments",
+      "probe_adjustments": [
+        -2,
+        -1,
+        0
+      ],
+      "current_configuration_check_would_accept": true,
+      "high_confidence_release": 2,
+      "low_confidence_release": 3
+    },
+    {
+      "id": "LLM-01",
+      "cell": "Model Comparator!G6",
+      "cached": 0.0,
+      "independently_calculated": 26,
+      "issue": "Stale blocker count; full recalculation required"
+    },
+    {
+      "id": "LLM-01",
+      "cell": "Model Comparator!G8",
+      "cached": 1.0,
+      "independently_calculated": 0,
+      "issue": "Stale exclusion count in blank template"
+    },
+    {
+      "id": "LLM-01",
+      "cell": "Model Comparator!H6",
+      "cached": 0.0,
+      "independently_calculated": 26,
+      "issue": "Stale blocker count; full recalculation required"
+    },
+    {
+      "id": "LLM-01",
+      "cell": "Model Comparator!H8",
+      "cached": 1.0,
+      "independently_calculated": 0,
+      "issue": "Stale exclusion count in blank template"
+    },
+    {
+      "id": "LLM-01",
+      "cell": "Model Comparator!I6",
+      "cached": 0.0,
+      "independently_calculated": 26,
+      "issue": "Stale blocker count; full recalculation required"
+    },
+    {
+      "id": "LLM-01",
+      "cell": "Model Comparator!I8",
+      "cached": 1.0,
+      "independently_calculated": 0,
+      "issue": "Stale exclusion count in blank template"
+    },
+    {
+      "id": "LLM-01",
+      "cell": "Model Comparator!J6",
+      "cached": 0.0,
+      "independently_calculated": 26,
+      "issue": "Stale blocker count; full recalculation required"
+    },
+    {
+      "id": "LLM-01",
+      "cell": "Model Comparator!J8",
+      "cached": 1.0,
+      "independently_calculated": 0,
+      "issue": "Stale exclusion count in blank template"
+    }
+  ],
+  "summary": {
+    "SOC_formula_count": 2887,
+    "SOC_active_rows": 120,
+    "SOC_row_output_reconciliations": 600,
+    "LLM_formula_count": 6171,
+    "checks_passed": 612,
+    "known_issue_observations": 9
+  }
+}

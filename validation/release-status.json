@@ -1,0 +1,19 @@
+{
+  "package_status": "reviewed-prerelease",
+  "package_version": "0.1.0-review.1",
+  "source_versions": "LLM assessment v0.6.8 r4; SOC Autonomy Map v1.4.3",
+  "stable_release_ready": false,
+  "native_excel_verified": false,
+  "licensing_confirmed": false,
+  "workbook_changes_applied": false,
+  "blockers": [
+    "SOC confidence adjustments allow an inverted confidence ordering.",
+    "Eight LLM comparator saved caches require recalculation in the intended Excel version.",
+    "MCP incomplete-context failure messaging and publication print layouts need improvement."
+  ],
+  "repository_preparation_date": "2026-10-26",
+  "native_excel_evidence": "validation/native-excel-acceptance.md",
+  "licensing_evidence": "LICENSE-STATUS.md",
+  "publication_metadata_reviewed": false,
+  "publication_metadata_evidence": "validation/publication-metadata.json"
+}

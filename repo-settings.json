@@ -1,0 +1,15 @@
+{
+  "suggested_name": "agent-assurance-atlas",
+  "description": "Excel tools for assessing LLM systems and planning controlled SOC autonomy.",
+  "topics": [
+    "agentic-ai",
+    "ai-security",
+    "security-assessment",
+    "soc",
+    "autonomy",
+    "excel",
+    "mcp"
+  ],
+  "initial_visibility": "private",
+  "has_issues": true
+}
