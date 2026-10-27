@@ -144,3 +144,12 @@ The reference check uses only the Python standard library. The optional scenario
 A subsequent repository-only inspection found Microsoft Information Protection label records in every supplied Office source in this repository. The identifiers are omitted from the [publication-metadata record](../validation/publication-metadata.json). Their presence alone is not a confidentiality determination. No source Office artifact was modified during this follow-up.
 
 The GitHub workflow now reproduces the independent reference calculations and source-formula scenarios, then compares them with the recorded evidence. The [browser publishing guide](../PUBLISHING.md), [native Excel acceptance record](../validation/native-excel-acceptance.md), and release-evidence checks were added for publication preparation. These changes affect repository scaffolding and documentation; they do not change the functional findings or numerical/workbook baselines recorded above.
+
+
+## Public-copy metadata cleanup — 27 October 2026
+
+The publication-metadata review is complete. The visible Public classifications were retained, while document properties, `lastModifiedBy` and absolute local or SharePoint paths were removed.
+
+The LLM public copy was cleaned directly at OOXML level to preserve all 6,171 formulas, saved cell values and all nine sheet-protection configurations. The SOC public copy was cleaned and reopened in Microsoft Excel; all 2,887 formulas and saved cell values match the original source. Reference and scenario outputs reproduce the recorded baselines exactly, including the documented defects. No formula errors were found.
+
+Current artifact identities are recorded in [validation/manifest.json](../validation/manifest.json) and [validation/publication-metadata.json](../validation/publication-metadata.json). These metadata changes do not close the SOC, comparator, MCP or print findings recorded above.
