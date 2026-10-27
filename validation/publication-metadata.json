@@ -1,22 +1,47 @@
 {
   "schema_version": 1,
   "prepared_date": "2026-10-26",
-  "status": "review-required",
-  "source_artifacts_modified": false,
-  "scope": "Publication-metadata inventory. This is not a confidentiality determination or a native Office metadata-removal operation.",
-  "finding": "Every source Office file in this repository contains a Microsoft Information Protection label record.",
-  "confidentiality_inference": "The presence of label metadata alone does not establish that the content is confidential.",
+  "review_completed_date": "2026-10-27",
+  "status": "reviewed",
+  "source_artifacts_modified": true,
+  "scope": "Publication-metadata review and preparation of public workbook copies.",
+  "finding": "Both source workbooks contain Microsoft Information Protection label records. Their visible classification is Public.",
+  "decision": "Retain the Public sensitivity labels. Remove document properties, lastModifiedBy and absolute local or SharePoint paths from the public copies. Preserve all formulas, saved cell values and sheet-protection configurations.",
   "label_and_site_identifiers_reproduced": false,
   "files": [
     "workbooks/LLM_Agent_Security_Assessment_v0_6_8_r4.xlsx",
     "workbooks/SOC-Autonomy-Map-v1.4.3.xlsx"
   ],
   "author_contact_details_present": false,
-  "required_action": "Review the Sensitivity setting and applicable organizational policy in the intended Office applications. Decide deliberately whether public release copies retain or remove the label. If any source artifact changes, update its manifest hash and rerun validation.",
+  "current_public_copies": {
+    "workbooks/LLM_Agent_Security_Assessment_v0_6_8_r4.xlsx": {
+      "sha256": "62e48e500ccbe75314076314d9e647fca8981c3d196d56e213962b20d36648a0",
+      "size_bytes": 205626,
+      "previous_source_sha256": "136ae7b34fd9884fb675138cee87516908c58b05d3c812a83eea67e9cf4ccb55",
+      "cleanup_method": "Direct OOXML metadata removal without an Excel resave",
+      "worksheets_unchanged": 18,
+      "formulas_unchanged": 6171,
+      "saved_cell_values_unchanged": true,
+      "sheet_protection_configurations_unchanged": 9,
+      "verification": "612 reference assertions and 39 scenario expectations match the recorded baseline; no formula errors"
+    },
+    "workbooks/SOC-Autonomy-Map-v1.4.3.xlsx": {
+      "sha256": "63a700e46346a6b9875cccce2b4b1a48df4f901f51877c9da604511de5cbe8c4",
+      "size_bytes": 160575,
+      "previous_source_sha256": "fc4bec3b418459d092e6495e07958f5115d7bd17058df74b69047666cfdddb71",
+      "cleanup_method": "Microsoft Excel Document Inspector",
+      "worksheets_unchanged": 7,
+      "formulas_unchanged": 2887,
+      "saved_cell_values_unchanged": true,
+      "verification": "612 reference assertions and 39 scenario expectations match the recorded baseline; no formula errors"
+    }
+  },
   "completion": {
-    "reviewed_by": null,
-    "review_date": null,
-    "decision": null,
-    "evidence_notes": null
-  }
+    "reviewed_by": "Matthias Muhlert",
+    "review_date": "2026-10-27",
+    "evidence_notes": "The LLM public copy was cleaned directly at OOXML level to preserve formulas and sheet protection. The SOC public copy was cleaned and reopened in Microsoft Excel. Reference and scenario outputs reproduce the recorded baselines exactly, including documented defects. Technical label/site identifiers are not reproduced in this record."
+  },
+  "soc_native_excel_metadata_cycle_completed": true,
+  "llm_native_excel_metadata_cycle_completed": false,
+  "full_native_excel_acceptance_completed": false
 }
