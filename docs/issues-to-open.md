@@ -106,9 +106,17 @@ Choose whether unknown labels must fail validation on every row, independently o
 - Read-only examples state their assumptions about downstream effects.
 - Any policy behavior change is explicit in release notes and does not appear as an incidental formula cleanup.
 
-## 6. Complete release ownership and third-party license allocation
+## 6. Confirm release ownership and third-party license allocation — completed
 
-**Suggested labels:** `release`, `documentation`
+The author selected CC BY-SA 4.0 for all original material in Agent Assurance Atlas on 27 October 2026. The root `LICENSE`, `LICENSE-STATUS.md`, `CITATION.cff`, `README.md` and `THIRD-PARTY-NOTICES.md` record the allocation. The AI Defense Matrix attribution, source and ShareAlike terms are preserved. `LICENSES/MIT.proposed.txt` remains only a historical proposal. No separate licensing issue needs to be opened.
+
+## Office publication metadata — completed
+
+The publication-metadata review was completed on 27 October 2026. Public classifications were retained; document properties, `lastModifiedBy` and absolute local or SharePoint paths were removed.
+
+The LLM public copy was cleaned directly at OOXML level to preserve formulas and sheet protection. The SOC public copy was cleaned and reopened in Microsoft Excel. All formulas and saved cell values match the original sources. Reference and scenario outputs reproduce the recorded baselines exactly, including documented defects.
+
+Current artifact identities are recorded in `validation/manifest.json` and `validation/publication-metadata.json`. Full native Excel acceptance remains a separate task.
 
 ### Problem
 
