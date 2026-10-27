@@ -9,6 +9,7 @@ authors:
     given-names: "Matthias"
     orcid: "https://orcid.org/0009-0006-3640-7779"
 version: "0.1.0-review.1"
+date-released: "2026-10-27"
 abstract: "Excel tools for assessing LLM systems and planning controlled SOC autonomy."
 keywords:
   - "agentic-ai"
