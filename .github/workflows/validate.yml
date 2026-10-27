@@ -1,0 +1,41 @@
+name: Repository checks
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      require_stable_release:
+        description: Also enforce stable-release readiness
+        required: false
+        default: false
+        type: boolean
+
+permissions:
+  contents: read
+
+jobs:
+  integrity:
+    name: Integrity and recorded model behavior
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@d23441a48e516b6c34aea4fa41551a30e30af803 # v6.1.0
+        with:
+          persist-credentials: false
+      - name: Check OOXML, links and original source hashes
+        run: python3 tools/validate_repository.py
+      - name: Reproduce independent reference evidence
+        run: |
+          python3 tools/reference_checks.py > validation/local-reference-results.json
+          cmp validation/reference-results.json validation/local-reference-results.json
+      - name: Install the pinned scenario-test dependency
+        run: python3 -m pip install --disable-pip-version-check -r requirements-test.txt
+      - name: Reproduce and compare recorded scenarios
+        run: |
+          python3 tools/scenario_eval.py --output validation/local-scenario-results.json
+          cmp validation/scenario-results.json validation/local-scenario-results.json
+      - name: Check stable-release readiness when explicitly requested
+        if: github.event_name == 'workflow_dispatch' && inputs.require_stable_release
+        run: python3 tools/release_gate.py
