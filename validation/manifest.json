@@ -1,20 +1,28 @@
 {
   "package_version": "0.1.0-review.1",
-  "review_date": "2026-10-22",
+  "review_date": "2026-10-27",
   "files": [
     {
       "path": "workbooks/LLM_Agent_Security_Assessment_v0_6_8_r4.xlsx",
       "source_filename": "LLM_Agent_Security_Assessment_v0_6_8_r4.xlsx",
-      "sha256": "136ae7b34fd9884fb675138cee87516908c58b05d3c812a83eea67e9cf4ccb55",
-      "size_bytes": 236833,
-      "content_change": "none; original source bytes retained"
+      "public_copy_filename": "LLM_Agent_Security_Assessment_v0_6_8_r4.xlsx",
+      "sha256": "62e48e500ccbe75314076314d9e647fca8981c3d196d56e213962b20d36648a0",
+      "size_bytes": 205626,
+      "previous_source_sha256": "136ae7b34fd9884fb675138cee87516908c58b05d3c812a83eea67e9cf4ccb55",
+      "content_change": "Direct OOXML publication metadata cleanup: absolute SharePoint path and lastModifiedBy removed; Public sensitivity label retained. All 18 worksheets, 6171 formulas, saved cell values and all 9 sheet-protection configurations match the original source.",
+      "verification_date": "2026-10-27",
+      "verification": "612 independent reference assertions and 39 scenario expectations match the recorded baseline, including documented defects. No formula errors."
     },
     {
       "path": "workbooks/SOC-Autonomy-Map-v1.4.3.xlsx",
       "source_filename": "SOC-Autonomy-Map-v1.4.3.xlsx",
-      "sha256": "fc4bec3b418459d092e6495e07958f5115d7bd17058df74b69047666cfdddb71",
-      "size_bytes": 160672,
-      "content_change": "none; original source bytes retained"
+      "public_copy_filename": "SOC-Autonomy-Map-v1.4.3.xlsx",
+      "sha256": "63a700e46346a6b9875cccce2b4b1a48df4f901f51877c9da604511de5cbe8c4",
+      "size_bytes": 160575,
+      "previous_source_sha256": "fc4bec3b418459d092e6495e07958f5115d7bd17058df74b69047666cfdddb71",
+      "content_change": "Publication metadata cleanup in Microsoft Excel: document properties and absolute workbook path removed; Public sensitivity label retained. All 7 worksheets, 2887 formulas and saved cell values match the original source.",
+      "verification_date": "2026-10-27",
+      "verification": "612 independent reference assertions and 39 scenario expectations match the recorded baseline, including documented defects. No formula errors."
     }
   ]
 }
