@@ -5,7 +5,8 @@
   "stable_release_ready": false,
   "native_excel_verified": false,
   "licensing_confirmed": true,
-  "workbook_changes_applied": false,
+  "workbook_changes_applied": true,
+  "workbook_change_scope": "Publication metadata cleanup of both public workbooks; formulas, saved cell values and LLM sheet-protection configurations match the original sources.",
   "blockers": [
     "SOC confidence adjustments allow an inverted confidence ordering.",
     "Eight LLM comparator saved caches require recalculation in the intended Excel version.",
@@ -14,6 +15,6 @@
   "repository_preparation_date": "2026-10-26",
   "native_excel_evidence": "validation/native-excel-acceptance.md",
   "licensing_evidence": "LICENSE-STATUS.md",
-  "publication_metadata_reviewed": false,
+  "publication_metadata_reviewed": true,
   "publication_metadata_evidence": "validation/publication-metadata.json"
 }
