@@ -1,6 +1,6 @@
 Creative Commons Attribution-ShareAlike 4.0 International
 
-This file preserves the legal terms for the third-party AI Defense Matrix material identified in THIRD-PARTY-NOTICES.md. It is not an overall license decision for this repository.
+This file contains the complete legal terms for the CC BY-SA 4.0 license applied to all original material in Agent Assurance Atlas and to the identified third-party AI Defense Matrix adaptations. See LICENSE and LICENSE-STATUS.md for the project allocation.
 
 Attribution-ShareAlike 4.0 International
 
