@@ -1,5 +1,16 @@
 # Changelog
 
+## Licensing and public-copy preparation — 2026-10-27
+
+- Selected CC BY-SA 4.0 for all original material in Agent Assurance Atlas. Added the operative project `LICENSE` and updated the license status, citation metadata, third-party notice, README and issue drafts. AI Defense Matrix attribution and ShareAlike terms are preserved; `MIT.proposed.txt` remains historical only.
+- Retained the visible Public sensitivity labels and removed document properties, `lastModifiedBy` and absolute local or SharePoint paths from both public workbooks.
+- Cleaned the LLM workbook directly at OOXML level to preserve all 6,171 formulas, saved cell values and all nine sheet-protection configurations. Cleaned and reopened the SOC workbook in Microsoft Excel; all 2,887 formulas and saved cell values match the original source.
+- New LLM SHA-256: `62e48e500ccbe75314076314d9e647fca8981c3d196d56e213962b20d36648a0`. New SOC SHA-256: `63a700e46346a6b9875cccce2b4b1a48df4f901f51877c9da604511de5cbe8c4`.
+- Reference and scenario outputs reproduce the recorded baselines exactly, including documented defects. No formula errors were found.
+- Updated the source manifest, publication-metadata record, release status, publishing guide, known issues, review and validation guide.
+
+Formal native Excel acceptance and the documented SOC, comparator, MCP and print issues remain open.
+
 ## Web-publication preparation — 2026-10-26
 
 Repository-only update before the initial GitHub import. The unpublished package version and functional-review baseline remain unchanged.
